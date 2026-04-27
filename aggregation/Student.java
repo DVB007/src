@@ -8,7 +8,7 @@ public class Student {
     public Student(int id, String name, Address address) {
         this.id = id;
         this.name = name;
-        this.address = address;
+        this.address = address;// Student "មាន" (Has-A) Address
     }
 
     public void display() {
