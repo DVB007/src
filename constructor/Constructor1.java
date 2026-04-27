@@ -1,7 +1,5 @@
 package constructor;
 
-import java.util.Scanner;
-
 public class Constructor1 {
     String name;
 
@@ -21,7 +19,7 @@ public class Constructor1 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
 
         // បង្កើត Object ទី១ ដោយមិនដាក់ឈ្មោះ (វានឹងយក "Unknow")
         Constructor1 s1 = new Constructor1();
