@@ -13,6 +13,8 @@ public class Student {
 
     public void display() {
         System.out.println("ID : " + id + ", Name : " + name);
+        //because address is another class if you want to use it
+        //you should access class then call variable
         System.out.println("City : " + address.city + ", country : " + address.country);
     }
 }
