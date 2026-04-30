@@ -3,7 +3,7 @@ package aggregation;
 public class Student {
     int id;
     String name;
-    Address address;// Aggregation
+    Address address;// Aggregation : type address to create variable
 
     public Student(int id, String name, Address address) {
         this.id = id;
